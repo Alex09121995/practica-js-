@@ -1,4 +1,4 @@
-/*const notas = [98,87,99,100]
+const notas = [98,87,99,100]
 // metodos para agregar o eliminar elementos de un array 
 notas.push(63); // agrega al final del array 
 notas.pop();// elemina el ultimo 
@@ -61,14 +61,10 @@ numeros1.forEach(numero => {25
           console.log(`es mayor de edad:${numero} `)
 
      }
-})*/
+})
 
 
-function arrayDiff(a, b) {
-     c= a.filter(elemeto => b.indexOf(elemeto));
-       console.log(c)
-   }
-   arrayDiff([1,2],[1])
+
 
 
 
