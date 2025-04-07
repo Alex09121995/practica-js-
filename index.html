@@ -3,12 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Underdog&display=swap" rel="stylesheet">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <h1>hola</h1>
-    <script src="ejercicio-2.js"></script>
+    <div id="conteiner">
+        <h1>Ejercicio 1</h1>
+    <div id="contador">
+        <input type="number" id="a" class="elementos" placeholder="introduca un numero">
+        <input type="number" id="b" class="elementos" placeholder="introduca un numero" >
+    
+        
+        <select id="operacion" class="elementos">
+            <option value="">--Seleciones el tipo de operacion--</option>
+          <option value="sumar">Sumar</option>
+          <option value="restar">Restar</option>
+          <option value="multiplicar">Multiplicar</option>
+          <option value="dividir">Dividir</option>
+          <option value="son pares">Verificar si son pares</option>
+        </select><br><br>
+    </div>
+    <button onclick="calcular()" class="elementos">Calcular</button>
+    <h3 id="resultado"></h3>
 
+
+
+    </div>
+    <script src="ejercicio-2.js"></script>
 </body>
 </html>
